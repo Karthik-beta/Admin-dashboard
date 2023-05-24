@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+  integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm ">
+    <div class="container-fluid">
+      <a class="navbar-brand">
+        <img src="Magnum.png" alt="" width="150" height="40">
+      </a>
+      <div>
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <!-- <li class="nav-item">
+            <a class="nav-link">Dashboard</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link">Andon Help</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Side Navigation Bar -->
+      <div class="col-md-2 bg-light">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active">
+                <div class="l-bg-gray custom-card">
+                  <div class="custom-card-icon">
+                    <i class="fas fa-home"></i>
+                  </div><br>
+                    <div class="text-center">
+                        <h5 class="card-title">Dashboard</h5>
+                    </div>
+                </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">
+              <div class="l-bg-gray custom-card">
+                <div class="custom-card-icon">
+                  <i class="fas fa-list"></i>
+                </div><br>
+                  <div class="text-center">
+                      <h5 class="card-title">Analytics</h5>
+                  </div>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">
+              <div class="l-bg-gray custom-card">
+                <div class="custom-card-icon">
+                  <i class="fas fa-folder"></i>
+                </div><br>
+                  <div class="text-center">
+                      <h5 class="card-title">Advance</h5>
+                  </div>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">
+              <div class="l-bg-gray custom-card">
+                <div class="custom-card-icon">
+                  <i class="fas fa-folder"></i>
+                </div><br>
+                  <div class="text-center">
+                      <h5 class="card-title">Andon </h5>
+                  </div>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">
+              <div class="l-bg-gray custom-card">
+                <div class="custom-card-icon">
+                  <i class="fas fa-lock"></i>
+                </div><br>
+                  <div class="text-center">
+                      <h5 class="card-title">Admin</h5>
+                  </div>
+              </div>
+            </a>
+          </li>
+          <!-- Add more links as needed -->
+        </ul>
+      </div>
+
+      <!-- Admin Configuration Box -->
+      <div class="col-md-10">
+        <h3 class="big-card text-center l-bg-light-gray" style="font-size: 1.5rem;">Admin Configuration</h3>
+        
+        <div class="row">
+          <!-- Cards -->
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-light-gray rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-users"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title">Roles</h5>
+                  <p class="card-subtitle">Gathering All The Data</p>
+                </div>
+                <!-- <div class="text-center">
+                  <button class="btn btn-primary w-100 mt-2">Add/Edit Employee</button>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <!-- Repeat the above card for the remaining 24 cards -->
+
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-cherry rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-cogs"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title">User Configuration</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-blue-dark rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-cogs"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title">Asset</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-green-dark rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-cogs"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title">Process</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-orange-dark rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-exclamation-triangle"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title">Alert</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-cyan rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-minus-square"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title">Loss Category</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-green rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-check-square"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title"> Quality Inspection</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-orange rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-cog"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title">Andon Settings</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-blue-teal rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-building"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title">Company</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-yellow-orange rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-industry"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title">Plant / Location</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-red-pink rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-sitemap"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title">Department</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-green-lime rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-id-badge"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title">Designation</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-yellow-green rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-cubes"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title">Division</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-violet-indigo rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-warehouse"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title">Shop Floor</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-orange-pink rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title">Shift</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-cyan-purple rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-chart-bar"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title">Skill Matrix</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-teal-green rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-users"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title">Employee</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-cyan-purple rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-user"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title"> Customer</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-orange rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-truck"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title">Supplier</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-yellow-orange rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-project-diagram"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title">Project / Purchase Order</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-orange rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-users"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title">User Configuration</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-orange rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-users"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title">User Configuration</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-orange rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-users"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title">User Configuration</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3 mb-4">
+            <div class="card l-bg-orange rounded card-small-width">
+              <div class="card-statistic-3 p-2">
+                <div class="card-icon">
+                  <i class="fas fa-users"></i>
+                </div>
+                <div class="mb-2 text-center">
+                  <h5 class="card-title">User Configuration</h5>
+                  <p class="card-subtitle">Create and Manage Employees</p>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

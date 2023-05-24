@@ -1,0 +1,566 @@
+.card {
+    border: none !important;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-icon {
+    font-size: 3rem;
+    color:#000;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+  }
+  
+  .card-subtitle {
+    font-size: 0.875rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9 !important;
+    border-color: #0062cc !important;
+  }
+  
+  .btn-primary:focus {
+    box-shadow: none !important;
+  }
+  
+  .btn-primary:active {
+    background-color: #0062cc !important;
+    border-color: #005cbf !important;
+    box-shadow: black !important;
+  }
+  
+  .btn-primary.w-100 {
+    width: 100%;
+  }
+  
+  .rounded {
+    border-radius: 0.5rem !important;
+  }
+  
+  .card.l-bg-blue-dark {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card.l-bg-blue-dark:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+  }
+  
+  .card-icon.card-icon-large {
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+  
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    margin-bottom: 5px;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(90,97,105,0.1), 0 0.9375rem 1.40625rem rgba(90,97,105,0.1), 0 0.25rem 0.53125rem rgba(90,97,105,0.12), 0 0.125rem 0.1875rem rgba(90,97,105,0.1);
+  }
+
+  .card.l-bg-cherry {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .l-bg-cherry {
+    background: linear-gradient(to right, #493240, #f09) !important;
+    color: #fff;
+  }
+
+  .card.l-bg-cherry:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+  }
+  
+  .l-bg-blue-dark {
+    background: linear-gradient(to right, #373b44, #4286f4) !important;
+    color: #fff;
+  }
+  
+
+  .card.l-bg-green-dark {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .l-bg-green-dark {
+    background: linear-gradient(to right, #0a504a, #38ef7d) !important;
+    color: #fff;
+  }
+
+  .card.l-bg-green-dark:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+  }
+  
+  .card.l-bg-orange-dark {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .l-bg-orange-dark {
+    background: linear-gradient(to right, #a86008, #ffba56) !important;
+    color: #fff;
+  }
+
+  .card.l-bg-orange-dark:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+  }
+
+  .card.l-bg-gray {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .l-bg-gray {
+    background: linear-gradient(to right, #bdc3c7, #2c3e50) !important;
+    color: #fff;
+  }
+
+  .card.l-bg-gray:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+  }
+
+  .card.l-bg-light-gray {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .l-bg-light-gray {
+    background: linear-gradient(to right, #bdc3c7, gray) !important;
+    color: #fff;
+  }
+
+  .card.l-bg-light-gray:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+  }
+  
+  .card .card-statistic-3 .card-icon-large .fas, .card .card-statistic-3 .card-icon-large .far, .card .card-statistic-3 .card-icon-large .fab, .card .card-statistic-3 .card-icon-large .fal {
+    font-size: 110px;
+  }
+  
+  .card .card-statistic-3 .card-icon {
+    text-align: center;
+    line-height: 50px;
+    margin-left: 15px;
+    color: #000;
+    position: absolute;
+    right: -5px;
+    top: 20px;
+    opacity: 0.1;
+  }
+
+  .card.l-bg-cyan {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .l-bg-cyan {
+    background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+    color: #fff;
+  }
+
+  .card.l-bg-cyan:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+  }
+
+  .card.l-bg-green {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .l-bg-green {
+    background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%) !important;
+    color: #fff;
+  }
+
+  .card.l-bg-green:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+  }
+
+  .card.l-bg-orange {
+    position: relative;
+    overflow: hidden;
+  }
+  .l-bg-orange {
+    background: linear-gradient(to right, #f9900e, #ffba56) !important;
+    color: #fff;
+  }
+
+  .card.l-bg-orange:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+  }
+
+  .card.l-bg-cyan {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .l-bg-cyan {
+    background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+    color: #fff;
+  }
+
+  .card.l-bg-cyan:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+  }
+
+  /* Purple and Pink Gradient */
+.card.l-bg-purple-pink {
+  position: relative;
+  overflow: hidden;
+} 
+
+.l-bg-purple-pink {
+  background: linear-gradient(to right, #8c1bab, #e7008c) !important;
+  color: #fff;
+}
+
+.card.l-bg-purple-pink:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+
+/* Blue and Teal Gradient */
+
+.card.l-bg-blue-teal {
+  position: relative;
+  overflow: hidden;
+} 
+
+.l-bg-blue-teal {
+  background: linear-gradient(to right, #007bb6, #00bcd4) !important;
+  color: #fff;
+}
+
+.card.l-bg-blue-teal:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+/* Yellow and Orange Gradient */
+
+.card.l-bg-yellow-orange {
+  position: relative;
+  overflow: hidden;
+} 
+
+.l-bg-yellow-orange {
+  background: linear-gradient(to right, #fbd500, #ff8300) !important;
+  color: #fff;
+}
+
+.card.l-bg-yellow-orange:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+/* Red and Pink Gradient */
+
+.card.l-bg-red-pink {
+  position: relative;
+  overflow: hidden;
+} 
+
+.l-bg-red-pink {
+  background: linear-gradient(to right, #e50000, #ff4d6a) !important;
+  color: #fff;
+}
+
+.card.l-bg-red-pink:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+/* Green and Lime Gradient */
+
+.card.l-bg-green-lime {
+  position: relative;
+  overflow: hidden;
+}
+
+.l-bg-green-lime {
+  background: linear-gradient(to right, #32a852, #a9ff00) !important;
+  color: #fff;
+}
+
+.card.l-bg-green-lime:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+/* Yellow and Green Gradient */
+
+.card.l-bg-yellow-green {
+  position: relative;
+  overflow: hidden;
+} 
+
+.l-bg-yellow-green {
+  background: linear-gradient(to right, #f9d423, #36d1dc) !important;
+  color: #fff;
+}
+
+.card.l-bg-yellow-green:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+/* Violet and Indigo Gradient */
+
+.card.l-bg-violet-indigo {
+  position: relative;
+  overflow: hidden;
+}
+
+.l-bg-violet-indigo {
+  background: linear-gradient(to right, #743ad5, #2c6dfb) !important;
+  color: #fff;
+}
+
+.card.l-bg-violet-indigo:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+/* Orange and Pink Gradient */
+
+.card.l-bg-orange-pink {
+  position: relative;
+  overflow: hidden;
+} 
+
+.l-bg-orange-pink {
+  background: linear-gradient(to right, #ff7e5f, #feb47b) !important;
+  color: #fff;
+}
+
+.card.l-bg-orange-pink:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+/* Cyan and Purple Gradient */
+
+.card.l-bg-cyan-purple {
+  position: relative;
+  overflow: hidden;
+} 
+
+.l-bg-cyan-purple {
+  background: linear-gradient(to right, #00c6ff, #8e54e9) !important;
+  color: #fff;
+}
+
+.card.l-bg-cyan-purple:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+/* Teal and Green Gradient */
+
+.card.l-bg-teal-green {
+  position: relative;
+  overflow: hidden;
+} 
+
+.l-bg-teal-green {
+  background: linear-gradient(to right, #00b09b, #96c93d) !important;
+  color: #fff;
+}
+
+.card.l-bg-teal-green:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: -1;
+}
+
+  
+.btn-primary {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+  
+.card-small-width {
+  width: 250px; /* Adjust the width as per your requirement */
+}
+  
+.custom-card {
+  height: 80px; /* Adjust the height as per your requirement */
+  border-radius: 0px 30px 0px 30px; /* Adjust the border radius as per your requirement */
+  border: none !important;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+}
+
+
+.custom-card-icon {
+  font-size: 1rem;
+  color: #000;
+  /* margin-bottom: 2px; */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.big-card {
+  height: 50px; /* Adjust the height as per your requirement */
+  border: none !important;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
